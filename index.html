@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+   
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+
+<body> 
+    <!---------------------Header----------------->
+ <header class="header">
+     <div class="container wrap-header-item">
+
+        <img class="logoimage
+        " src="./images/logo2.jpg" alt="логотип компании" width="300px">
+         
+         <!-- <a class="logo" href="">Web<span class="logo__header">Studio</span></a> -->
+
+         
+
+        <button type="button" class="menu-toggle js-open-menu">
+            <svg class="menu-toggle__icon" width="24" height="16">
+                <use href="./images/icons.svg#icon-menu_black"></use>
+            </svg>
+        </button>
+
+         <nav class="header__nav site-nav">
+         <ul class="site-nav__list">
+             <li class="site-nav__item site-nav__item--current"><a class="site-nav__link site-nav__link--current" href="./index.html" rel="noopener noreferrer">Студия</a></li>
+             <li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html" rel="noopener noreferrer">Портфолио</a></li>
+             <li class="site-nav__item"><a class="site-nav__link" href="" rel="noopener noreferrer">Контакты</a></li>
+         </ul>
+        </nav>
+
+        <ul class="header__contact header-contact">
+            <li class="header-contact__item"><a class="header-contact__link" href="mailto:info@devstudio.com"><svg class="header-mail-icon"><use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
+            <li class="header-contact__item"><a class="header-contact__link" href="tel:+380961111111"><svg class="header-phone-icon">
+                <use href="./images/icons.svg#icon-tel"></use>
+            </svg>+38 096 111 11 11</a></li>
+        </ul>
+        
+     </div>         
+ </header>
+ <!-- -------------------------------------Main----------- -->
+ <main>
+<!-- ----------------------------------Hero----------------- -->
+     <section class="section-hero">
+        <div class="container hero">
+         <div class="hero__text-box"><h1 class="hero__text">Эффективные решения для вашего бизнеса</h1></div>
+         <button data-modal-open class="hero__button" type="button">Заказать услугу</button>
+        </div>
+     </section>
+<!-- ---------------------------------Advantages------------- -->
+     
+
+ <!---------------- footer -------------->
+
+
+
+ <footer class="footer-all">
+     <div class="container container__footer">
+         <div class="wrap-logo-addres__join">
+         <div class="wrap-logo-addres">
+    <a class="logo" href="">Web<span class="logo__footer">Studio</span></a>
+    <address class="adress">
+        <p class="adress__text">
+        г. Киев, пр-т Леси Украинки, 26
+        </p>
+        <ul class="adress__list">
+            <li class="adress__item"><a class="footer__contact" href="mailto:info@example.com">info@example.com</a></li>
+            <li class="adress__item"><a class="footer__contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>        
+    </address>
+    </div>
+    <!-- ----------------------join----------------------------- -->
+    <div class="join">
+        <h3 class="join__title">присоединяйтесь</h3>
+    
+<ul class="social__list">
+    <li class="social__items">
+        <a class="social__links footer" href="">
+            <svg class="social__icon footer" width=20 height=20>
+                <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+        </a>
+    </li>
+    <li class="social__items">
+        <a class="social__links footer" href="">
+            <svg class="social__icon footer" width=20 height=20>
+                <use href="./images/icons.svg#icon-twitter">
+
+                </use>
+            </svg>
+        </a>
+    </li>
+    <li class="social__items">
+        <a class="social__links footer" href="">
+            <svg class="social__icon footer" width=20 height=20>
+                <use href="./images/icons.svg#icon-facebook">
+
+                </use>
+            </svg>
+        </a>
+    </li>
+    <li class="social__items">
+        <a class="social__links footer" href="">
+            <svg class="social__icon footer" width=20 height=20>
+                <use href="./images/icons.svg#icon-linkedin">
+
+                </use>
+            </svg>
+        </a>
+    </li>
+</ul>
+    </div>
+    </div>
+<!-- -------------------------- subscription ------------------------>
+
+    <div class="subscription"><p class="subscription__title">Подпишитесь на рассылку</p>
+    
+    <form action="#" class="subscription__form">
+    <input type="email" class="subscription__input" placeholder="Email">    
+    <button type="submit" class="subscription__button" >Подписаться <span>
+    <svg class="subscription__svg" width=24 height=24>
+        <use href="./images/icons.svg#icon-send">    
+        </use>
+    </svg>
+    </span></button>
+    </form>
+    </div>
+    
+    
+
+    </div>
+ </footer>
+
+
+ <!----------------------------мобильное меню ----------------->
+<div class="mobile-menu js-mobile-menu">
+    <button type="button" class="menu-toggle mobile-menu__menu-toggle js-close-menu">
+        <svg class="menu-toggle__icon" width="19" height="19">
+            <use href="./images/icons.svg#icon_close"></use>
+        </svg>
+    </button>
+    <ul class="mobile-menu__list">
+        <li class="mobile-menu__list-item">
+            <a class="mobile-menu__link mobile-menu__link--active" href="./index.html">Студия</a>
+        </li>
+        <li class="mobile-menu__list-item">
+            <a class="mobile-menu__link" href="./portfolio.html">Портфолио</a>
+        </li>
+        <li class="mobile-menu__list-item">
+            <a class="mobile-menu__link" href="">Контакты</a>
+        </li>
+    </ul>
+    <ul class="mobile-menu__contacts">
+        <li class="mobile-menu__contacts-item">
+            <a class="mobile-menu__contacts-phone" href="tel:+380961111111"> +38 096 111 11 11 </a>
+        </li>
+        <li class="mobile-menu__contacts-item">
+            <a class="mobile-menu__contacts-mail" href="mailto:info@devstudio.com">
+                info@devstudio.com
+            </a>
+        </li>
+    </ul>
+    <ul class="mobile-menu__social-list">
+        <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link" href="">Instagram</a>
+        </li>
+        <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link" href="">Twitter</a>
+        </li>
+        <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link" href="">Facebook</a>
+        </li>
+        <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link" href="">LinkedIn</a>
+        </li>
+    </ul>
+</div>
+
+ <!-- ---------------------modal-------------------------------------- -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button data-modal-close class="modal__button-closed">
+            <svg class="modal__button-closed__cross" width=11 height=11>
+                <use href="./images/icons.svg#icon-cross">         
+                </use>
+            </svg>
+            </button>
+
+            <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="modal__form">
+                <div class="modal__field">
+                <label for="user-name" class="modal__form--label">Имя</label>
+                <div class="svg-input-warp">
+                <input id="user-name" type="text" name="user-name" required class="modal__form--input">
+                <svg class="modal__svg" width=12px height=12px>
+                    <use href="./images/icons.svg#icon-manblack"></use>
+                </svg>
+                </div>                
+                </div>
+                <div class="modal__field">
+                    <label for="user-tel" class="modal__form--label">Телефон</label>
+                    <div class="svg-input-warp">
+                        <input id="user-tel" type="tel" name="user-tel" required class="modal__form--input">
+                        <svg class="modal__svg" width=13px height=13px>
+                            <use href="./images/icons.svg#icon-telmodal"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal__field">
+                    <label for="user-mail" class="modal__form--label">Почта</label>
+                    <div class="svg-input-warp">
+                        <input id="user-mail" type="email" name="user-mail" required class="modal__form--input">
+                        <svg class="modal__svg" width=15px height=12px>
+                            <use href="./images/icons.svg#icon-mailmodal"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal__field text-area">
+                    <label for="modal-comment" class="modal__form--label">Комментарий</label>
+                    <textarea class="modal__text--area" name="user-comment" id="modal-comment" placeholder="Введите текст"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="slave" id="slave" class="checkbox__input visually-hidden"/>
+                    <label for="slave" class="checkbox__label"><span class="checkbox__icon">
+                        <svg class="checkbox__svg" width=11px height=8px>
+                        <use href="./images/icons.svg#icon-icon-cheksmal"></use>
+                    </svg></span> Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-link">Условия договора</a> </label>
+                </div>
+
+
+                <button type="submit" class="modal__button--submit" >Отправить</button>
+            </form>
+    </div>
+</div>
+ 
+<script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter"
+stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" -->
+
+
+
